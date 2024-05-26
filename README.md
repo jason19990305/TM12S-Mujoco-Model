@@ -16,8 +16,8 @@ The `tm12s.xml` file describes the TM Robot tm12s robotic arm. This is the main 
 
 The `scene_grid.xml` file describes the grid floor scene. This is used as the environment for robot simulation.
 
-![](https://github.com/jason19990305/TM12S-Mujoco-Model/tm12s.png)
-![](https://github.com/jason19990305/TM12S-Mujoco-Model/simulate.gif)
+![](https://github.com/jason19990305/TM12S-Mujoco-Model/blob/main/tm12s.png)
+![](https://github.com/jason19990305/TM12S-Mujoco-Model/blob/main/simulate.gif)
 
 
 
