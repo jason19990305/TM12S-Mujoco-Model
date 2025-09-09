@@ -99,7 +99,7 @@
 
         <body name="link_1" pos="0 0 0.1652">
             <inertial pos="0 0 0" quat="0 0.707107 0 0.707107" mass="8.2" diaginertia="0.0388564 0.0376712 0.0259631" />
-            <joint name="joint_1" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="0.5"/>
+            <joint name="joint_1" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="12.19"/>
             <geom mesh="tm12s-j1-a_0" material="grey" class="visual" />
             <geom mesh="tm12s-j1-a_1" material="darkgrey" class="visual" />
             <geom mesh="tm12s-j1-a_2" material="darkgrey" class="visual" />
@@ -109,7 +109,7 @@
 
             <body name="link_2" pos="0 0 0" quat="0.5 -0.5 -0.5 -0.5">
                 <inertial pos="0 0 0" quat="0 0.707107 0 0.707107" mass="15.017" diaginertia="1.23127 1.21261 0.056179" />
-                <joint name="joint_2" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="0.5"/>
+                <joint name="joint_2" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="9.11"/>
                 <geom mesh="tm12s-a1_0" material="lightgrey" class="visual" />
                 <geom mesh="tm12s-a1_1" material="darkgrey" class="visual" />
                 <geom mesh="tm12s-a1_2" material="darkgrey" class="visual" />
@@ -119,7 +119,7 @@
 
                 <body name="link_3" pos="0.6361 0 0">
                     <inertial pos="0 0 0" quat="0 0.707107 0 0.707107" mass="3.329" diaginertia="0.135526 0.134099 0.00469454" />
-                    <joint name="joint_3" pos="0 0 0" axis="0 0 1" limited="true" range="-2.82743 2.82743" damping="0.5"/>
+                    <joint name="joint_3" pos="0 0 0" axis="0 0 1" limited="true" range="-2.82743 2.82743" damping="4.91"/>
                     <geom mesh="tm12s-a2_0" material="lightgrey" class="visual" />
                     <geom mesh="tm12s-a2_1" material="darkgrey" class="visual" />
                     <geom mesh="tm12s-a2_2" material="darkgrey" class="visual" />
@@ -130,7 +130,7 @@
 
                     <body name="link_4" pos="0.5324 0 -0.1818" quat="0.707107 0 0 0.707107">
                         <inertial pos="0 0 0" quat="0 0.707107 0 0.707107" mass="1.77" diaginertia="0.00347895 0.00317183 0.00204603" />
-                        <joint name="joint_4" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="0.5"/>
+                        <joint name="joint_4" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="1.19"/>
                         <geom mesh="tm12s-j5_0" material="darkgrey" class="visual" />
                         <geom mesh="tm12s-j5_1" material="darkgrey" class="visual" />
                         <geom mesh="tm12s-j5_2" material="darkgrey" class="visual" />
@@ -140,7 +140,7 @@
 
                         <body name="link_5" pos="0 -0.1315 0" quat="0.707107 0.707107 0 0">
                             <inertial pos="0 0 0" quat="0 0.707107 0 0.707107" mass="1.88" diaginertia="0.00347895 0.00317183 0.00204603" />
-                            <joint name="joint_5" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="0.5"/>
+                            <joint name="joint_5" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="1.18"/>
                             <geom mesh="tm12s-j6_0" material="darkgrey" class="visual" />
                             <geom mesh="tm12s-j6_1" material="darkgrey" class="visual" />
                             <geom mesh="tm12s-j6_2" material="darkgrey" class="visual" />
@@ -150,7 +150,7 @@
 
                             <body name="link_6" pos="0 -0.13495 0" quat="0.707107 0.707107 0 0">
                                 <inertial pos="0 0 0" quat="0 0.707107 0 0.707107" mass="0.72" diaginertia="0.00185448 0.00171102 0.000703447" />
-                                <joint name="joint_6" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="0.5"/>
+                                <joint name="joint_6" pos="0 0 0" axis="0 0 1" limited="true" range="-6.28319 6.28319" damping="0.31"/>
                                 <geom mesh="tm12s-io_0" material="grey" class="visual" />
                                 <geom mesh="tm12s-io_1" material="grey" class="visual" />
                                 <geom mesh="tm12s-io_2" material="white" class="visual" />
